@@ -1,0 +1,39 @@
+.new-card-title-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.new-card-image{
+    height: 25px;
+    width: 25px;
+    border-radius: 12px;
+}
+
+.new-card-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.news-card{
+    height: 500px;
+    width: 30%;
+    max-width: 600px;
+}
+
+.news-card-description{
+    text-align: left;
+    padding: 5px 0px;
+    font-size: 12px;
+}
+
+.news-card-bottom-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news-item-text{
+    font-size: 14px;
+    text-align: left;
+}
